@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+
+        <div>
+            <label for="myName">Name</label>
+            <input type="text" placeholder="Enter your name" id="myName" name="myName">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" placeholder="Your Role" name="myRole">
+        </div>
+        <br>
+        <div>
+            email: <input type="email" placeholder="abc@xyz.com" name="myEmail">
+        </div>
+
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender">
+            Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Date: <input type="number" placeholder="Bonus Amt" name="myBonus">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="myCond" checked> I do not agree
+            <br>
+            <input type="checkbox" name="myCond"> I agree
+        </div>
+        <!-- <div>
+            <input type="checkbox" name="myCond"> I agree
+        </div> -->
+        <br>
+        <div>
+            <div>Write about yourself:</div>
+
+            <textarea name="mytext" id="" placeholder="Enter max 200 words" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="myCar">Car</label>
+            <select name="myCar" id="myCar">
+                <option value="ti">Tata Indica</option>
+                <option value="ms">Maruti Swift</option>
+                <option value="hc" selected>Honda City</option>
+                <option value="hv">Hundai Verna</option>
+                <option value="fe">Ford EcoSport</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
